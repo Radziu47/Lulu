@@ -13,7 +13,7 @@ def Zapychacz(x):
 
 def Polacz():
     url = webdriver.Chrome()
-    url.get('https://6obcy.org/rozmowa')
+    url.get('')
     assert "6obcy.org" in url.title
     inputChe = url.find_element(By.CLASS_NAME, "caper-solution-input")
     inputChe.clear()
